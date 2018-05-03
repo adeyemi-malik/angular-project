@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HelloWordComponent } from './hello-word/hello-word.component';
+import { UserItemComponent } from './user-item/user-item.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloWordComponent
+    HelloWordComponent,
+    UserItemComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule
